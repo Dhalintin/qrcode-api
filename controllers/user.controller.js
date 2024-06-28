@@ -26,7 +26,8 @@ class UserController {
                 message: "User created successfully",
                 data: {
                     user,
-                    socials
+                    socials,
+                    link: `https://dhalintin.github.io/qrcodegenerator/${user._id}`
                 }
 
             })
